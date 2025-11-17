@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assets",
+  "info": {
+    "singularName": "asset",
+    "pluralName": "assets",
+    "displayName": "asset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "filename": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "public": {
+      "type": "boolean"
+    },
+    "vendoruuid": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "colloborator": {
+      "type": "string"
+    },
+    "cdnpath": {
+      "type": "string"
+    },
+    "expirydate": {
+      "type": "date"
+    },
+    "assetuuid": {
+      "type": "uid",
+      "targetField": "vendoruuid"
+    }
+  }
+}

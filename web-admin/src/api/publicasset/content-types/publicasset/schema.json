@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publicassets",
+  "info": {
+    "singularName": "publicasset",
+    "pluralName": "publicassets",
+    "displayName": "publicasset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "filename": {
+      "type": "string"
+    },
+    "filepath": {
+      "type": "string"
+    },
+    "size": {
+      "type": "integer"
+    },
+    "author": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "publicpath": {
+      "type": "string"
+    }
+  }
+}

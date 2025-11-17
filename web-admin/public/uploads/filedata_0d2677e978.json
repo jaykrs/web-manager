@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "natwest-logo.png",
+    "alternativeText": null,
+    "caption": null,
+    "width": 320,
+    "height": 320,
+    "formats": {
+      "thumbnail": {
+        "name": "thumbnail_natwest-logo.png",
+        "hash": "thumbnail_natwest_logo_97f6ff97de",
+        "ext": ".png",
+        "mime": "image/png",
+        "path": null,
+        "width": 156,
+        "height": 156,
+        "size": 3.88,
+        "url": "/uploads/thumbnail_natwest_logo_97f6ff97de.png"
+      }
+    },
+    "hash": "natwest_logo_97f6ff97de",
+    "ext": ".png",
+    "mime": "image/png",
+    "size": 8.9,
+    "url": "/uploads/natwest_logo_97f6ff97de.png",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "createdAt": "2025-10-13T09:34:55.539Z",
+    "updatedAt": "2025-10-13T09:34:55.539Z"
+  }
+]

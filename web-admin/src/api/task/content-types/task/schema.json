@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "task"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "vendoruuid": {
+      "type": "string"
+    },
+    "assignedto": {
+      "type": "string"
+    },
+    "taskdescription": {
+      "type": "richtext"
+    },
+    "status": {
+      "type": "string"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "boolean"
+    },
+    "startdt": {
+      "type": "date"
+    },
+    "enddt": {
+      "type": "date"
+    }
+  }
+}
